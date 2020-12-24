@@ -9,6 +9,8 @@ function myfib2(thresh) {
     temp = fiba + fibb;
     fiba = fibb;
     fibb = temp;
+    //DJ Added 
+    if (fibb >= 150) { break; } 
     document.write (fibb + ", ");
   }
   document.write("Break now...\n");
