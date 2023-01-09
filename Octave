@@ -1,15 +1,20 @@
 i = 1;
 j = 1;
-
+fib = i + j;
+     
     for(i=0:150)
-     fib = i + j;
      i = j;
      j = fib;
+     fib = i + j;
+     
+     % if statement for exiting the sequence at the desired number
      if(fib > 150) 
-     clear i;
-     clear j;
-     clear fib;
-     break;
+        clear i;
+        clear j;
+        clear fib;
+        break;
      endif
+     
+     % display output
      disp(fib)
 endfor
