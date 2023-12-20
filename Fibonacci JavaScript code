@@ -5,7 +5,7 @@ function myfib2(thresh) {
   fiba = 1;
   fibb = 1;
   document.write (fiba + ", " + fibb + ", ");
-  while(fibb <= 150) {
+  while(fibb <= 144) {
     temp = fiba + fibb;
     fiba = fibb;
     fibb = temp;
@@ -13,4 +13,4 @@ function myfib2(thresh) {
   }
   document.write("Break now...\n");
 }
-myfib2(150)
+myfib2(144)
