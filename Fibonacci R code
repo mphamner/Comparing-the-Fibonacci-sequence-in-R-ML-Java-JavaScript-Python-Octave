@@ -7,9 +7,9 @@ myfib2 <- function(thresh){
     fib.a <- fib.b
     fib.b <- temp
     cat(fib.b, ", ", sep = "")
-    if(fib.b > 150){
-      cat("Break now...\n")
-      break
-    }
-  }
+    if(fib.b > 150) (break;)
+    document.write(fibb + ", ");
 }
+      cat("Break now...\n")
+      break  
+  }
