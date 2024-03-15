@@ -5,7 +5,7 @@ fun fibonacci n =
     fibonacci (n-1) + fibonacci (n-2)
 
 fun aux n =
-  if n > 16 then
+  if n > 17 then
     print "\n"
   else (
     print (Int.toString (fibonacci n) ^ ", ");
